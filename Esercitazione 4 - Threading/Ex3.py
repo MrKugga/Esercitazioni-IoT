@@ -1,4 +1,4 @@
-import requests, re
+import requests
 from threading import Thread, Lock
 
 class Translator(Thread):
