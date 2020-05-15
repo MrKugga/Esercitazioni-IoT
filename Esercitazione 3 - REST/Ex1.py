@@ -1,7 +1,7 @@
 import cherrypy
 
 @cherrypy.expose
-class ReverseString():
+class ReverseString:
 
     def GET(self, *uri, **params):
         if len(uri) != 0:
